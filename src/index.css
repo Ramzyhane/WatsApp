@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body{
+  background-color: blueviolet;
 }
+.form_container{
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 30px;
+  min-height: 90vh;
+}
+.message_container{
+  border-radius: 12px;
+  background-color: #afabab;
+  padding: 50px;
+  min-height: 90vh;
+}
+h5{
+  color: blueviolet;
+  font-weight: 200;
+  font-size: 24px;
+}
+.input{
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.btn{
+  width: 100%;
+}
+.bubble_me{
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 12px;
+  max-width: 30%;
+  margin: 6px;
+}
+p.name{
+  color: blueviolet;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+p.message{
+  color: #000000;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.bubble_you{
+  float: right;
+  border-radius: 12px;
+  background-color: #24cd86;
+  padding: 12px;
+  max-width: 30%;
+  margin: 6px;
 }
